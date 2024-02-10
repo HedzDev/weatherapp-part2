@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div id="header">
+		<img id="logo" src="images/logo.svg"/>
+		<div class="headerDiv">
+			<input id="cityNameInput" type="text" placeholder="Add new city" />
+			<button id="addCity"><img id="glass" src="images/glass.png"/></button>
+		</div>
+		<img id="userIcon" src="images/user.png">
+	</div>
+	
+	<div id="cityList">
+    <div class="cityContainer">
+      <p class="name">Paris</p>
+      <p class="description">Cloudy</p>
+      <img class="weatherIcon" src="images/Clouds.png" />
+      <div class="temperature">
+        <p class="tempMin">7°C</p>
+        <span>-</span>
+        <p class="tempMax">24°C</p>
+      </div>
+      <button class="deleteCity" id="Paris">Delete</button>
+    </div>
+	</div>
+		
+	<script src="script.js"></script>
+</body>
+
+</html>
